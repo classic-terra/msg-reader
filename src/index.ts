@@ -1,4 +1,4 @@
-import { Msg, Vote } from "@terra-money/terra.js"
+import { Msg, Vote } from "@terra-rebels/terra.js"
 import { defaultMessage, formatCoin, formatCoins } from "./utility"
 
 export const readMsg = (msg: Msg) => {
