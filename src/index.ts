@@ -53,14 +53,15 @@ export const readMsg = (msg: Msg) => {
         )} on proposal ${proposal_id}`
       }
 
-      case "/terra.wasm.v1beta1.MsgExecuteContract": {
-        const { contract, execute_msg, coins } = data
-        const [key] = Object.keys(execute_msg)
+      case "/cosmwasm.wasm.v1.MsgExecuteContract": {
+        const { contract, msg, funds } = data
+        const [key] = Object.keys(msg)
         const payload = key ? ` ${key}` : ""
-        const suffix = coins.length ? ` with ${formatCoins(coins)}` : ""
+        const suffix = funds.length ? ` with ${formatCoins(funds)}` : ""
 
         return `Execute${payload} on ${contract}${suffix}`
       }
+
       case "/cosmos.gov.v1beta1.MsgSubmitProposal": {
         const { content } = data
         const type = content["@type"]
