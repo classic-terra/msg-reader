@@ -1,9 +1,9 @@
 {
-  "name": "@terra-rebels/msg-reader",
-  "version": "1.0.4",
+  "name": "@terraclassic-community/msg-reader",
+  "version": "3.0.1",
   "description": "Convert common terra.js msg to a sentence",
   "main": "dist/index.js",
-  "author": "Terra Rebels <contact@terrarebels.net>",
+  "author": "Terra Classic Community",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -16,10 +16,10 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@terra-rebels/terra.js": "^3"
+    "@terraclassic-community/terra.js": "^3"
   },
   "devDependencies": {
-    "@terra-rebels/terra.js": "^3.2.0",
+    "@terraclassic-community/terra.js": "^3.1.10",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.5",
     "jest": "^27.2.5",

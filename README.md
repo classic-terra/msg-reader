@@ -1,18 +1,18 @@
-# @terra-rebels/msg-reader
+# @terraclassic-community/msg-reader
 
 Convert common terra.js msg to a sentence
 
 ## Installation
 
 ```
-npm i @terra-rebels/msg-reader
+npm i @terraclassic-community/msg-reader
 ```
 
 ## Example codes
 
 ```typescript
-import { Coins, Coin, MsgSend } from "@terra-rebels/terra.js"
-import { readMsg } from "@terra-rebels/msg-reader"
+import { Coins, Coin, MsgSend } from "@terraclassic-community/terra.js"
+import { readMsg } from "@terraclassic-community/msg-reader"
 
 const coins = new Coins([new Coin("uluna", 1000000), new Coin("ukrw", 1000000)])
 

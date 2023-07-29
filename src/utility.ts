@@ -1,4 +1,4 @@
-import { Coin, Coins } from "@terra-rebels/terra.js"
+import { Coin, Coins } from "@terraclassic-community/terra.js"
 import { sentenceCase } from "sentence-case"
 
 export const formatCoins = (data: Coins.Data) => data.map(formatCoin).join(",")

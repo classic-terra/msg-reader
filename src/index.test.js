@@ -18,11 +18,11 @@ const {
   CommunityPoolSpendProposal,
   ParameterChangeProposal,
   ParamChange,
-} = require("@terra-rebels/terra.js")
+} = require("@terraclassic-community/terra.js")
 const {
   CancelSoftwareUpgradeProposal,
   SoftwareUpgradeProposal,
-} = require("@terra-rebels/terra.js/dist/core/upgrade/proposals")
+} = require("@terraclassic-community/terra.js/dist/core/upgrade/proposals")
 const { readMsg } = require("./index")
 
 const coin = new Coin("uluna", 1000000)
